@@ -1,0 +1,31 @@
+﻿# Build
+build/
+cmake-build-*/
+*.o
+*.so
+*.dll
+*.exe
+*.pyc
+__pycache__/
+*.pyd
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Data
+data/cache/
+*.tif
+*.shp
+*.geojson
+*.gpkg
+
+# Environment
+venv/
+.env
+*.log
+
+# Python
+python/__pycache__/
+python/*.egg-info/
